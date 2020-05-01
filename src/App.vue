@@ -1,5 +1,12 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <main id="gorodok-app">
+    <router-view />
+  </main>
 </template>
+
+<script>
+
+export default {
+	name: 'app'
+}
+</script>
