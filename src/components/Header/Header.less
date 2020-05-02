@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	margin: 40px auto;
+	font-size: 20px;
+
+	.nav__list {
+		display: grid;
+		grid-auto-flow: column;
+		column-gap: 30px;
+
+		&-item {
+			color: @color-orange;
+		}
+	}
+
+	.contacts {
+		display: flex;
+		flex-direction: column;
+		text-align: right;
+		line-height: 20px;
+		color: @color-orange;
+	}
+}
