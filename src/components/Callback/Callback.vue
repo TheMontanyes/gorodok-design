@@ -3,7 +3,7 @@
     <h3 class="callback__title g-bold">
       <img src="@/assets/images/svg/callback.svg">Нужна<br>консультация?
     </h3>
-    <p class="callback__text">
+    <p class="callback__description">
       Мы с радостью ответим на Ваши вопросы и произведём расчет стоимости услуг, а также подготовим индивидуальное коммерческое предложение.
     </p>
 		<btn :text="'Заказать звонок'" class="btn-link"></btn>

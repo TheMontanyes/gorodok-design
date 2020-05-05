@@ -3,8 +3,9 @@ import Vue from 'vue'
 import 'reset-css'
 import store from '@/store'
 import router from '@/router'
-import VueCarousel from '@chenfengyuan/vue-carousel'
 import '@/assets/snowstorm'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
 
 // Подключение компонентов для регистрации
 import App from '@/App.vue'
@@ -12,14 +13,16 @@ import Header from '@/components/Header/Header.vue'
 import Card from '@/components/Card/Card.vue'
 import Callback from '@/components/Callback/Callback.vue'
 import Button from '@/components/Button/Button.vue'
+import HeaderSlider from '@/components/HeaderSlider/HeaderSlider.vue'
 
 Vue.config.productionTip = false
 
 // Глобальная регистрация компонентов
 Vue.component('card', Card) // Карточка (почему мы? / отзывы)
-Vue.component('callback', Callback) // Плашка Нужна консультация?
-Vue.component('btn', Button) // Кнопка
-Vue.component('carousel', VueCarousel) // VueCarousel
+Vue.component('callback', Callback) // Плашка "Нужна консультация?"
+Vue.component('btn', Button) // Универсальный компонент кнопки
+Vue.component('header-slider', HeaderSlider) // Слайдер под шапкой на главной
+Vue.use(VueAwesomeSwiper)
 
 // APP ROOT
 new Vue({

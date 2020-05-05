@@ -67,8 +67,8 @@ var snowStorm = (function(window, document) {
   this.flakeRightOffset = 0;      // Right margin/gutter space on edge of container
   this.flakeWidth = 25;            // Max pixel width reserved for snow element
   this.flakeHeight = 20;           // Max pixel height reserved for snow element
-  this.vMaxX = 2;                 // Maximum X velocity range for snow
-  this.vMaxY = 2;                 // Maximum Y velocity range for snow
+  this.vMaxX = 1;                 // Maximum X velocity range for snow
+  this.vMaxY = 1;                 // Maximum Y velocity range for snow
   this.zIndex = -1;                // CSS stacking order applied to each snowflake
 
   // --- "No user-serviceable parts inside" past this point, yadda yadda ---
