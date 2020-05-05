@@ -1,0 +1,23 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.32 17.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f7a511;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>clik</title>
+  <g>
+    <g>
+      <polyline class="cls-1" points="15.52 16.11 14.37 17.16 10.61 13.05 8.94 16.06 5.37 5.26 5.39 5.23 5.43 5.2 15.93 9.57 12.8 11.01 16.62 15.07 15.49 16.13"/>
+      <polyline class="cls-1" points="6.65 9.14 4.99 4.76 10.38 7.26"/>
+    </g>
+    <line class="cls-1" x1="9.45" y1="1.7" x2="7.62" y2="3.34"/>
+    <line class="cls-1" x1="5.66" y1="2.38" x2="5.78" y2="0.03"/>
+    <line class="cls-1" x1="0.03" y1="5.06" x2="2.48" y2="5.2"/>
+    <line class="cls-1" x1="3.19" y1="7.26" x2="1.44" y2="8.84"/>
+    <line class="cls-1" x1="3.45" y1="3.17" x2="1.81" y2="1.42"/>
+  </g>
+</svg>

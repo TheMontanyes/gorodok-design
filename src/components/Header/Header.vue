@@ -1,9 +1,12 @@
 <template>
-	<header class="header g-container">
-		<img src="@/assets/images/svg/logo.svg" alt="logo" class="logo">
+	<header class="header g-section">
+		<router-link class="g-link" to="/" exact><img src="@/assets/images/svg/logo.svg" alt="logo" class="logo"></router-link>
 		<nav class="nav">
 			<ul class="nav__list">
-				<li class="nav__list-item" :key="index" v-for="(item, index) in this.menu"><a href="" class="g-link">{{item}}</a></li>
+				<li class="nav__list-item"><router-link class="g-link" to="/" exact>Главная</router-link></li>
+				<li class="nav__list-item"><router-link class="g-link" to="#">О нас</router-link></li>
+				<li class="nav__list-item"><router-link class="g-link" :to="{name: 'catalog'}">Каталог</router-link></li>
+				<li class="nav__list-item"><router-link class="g-link" to="#">Портфолио</router-link></li>
 			</ul>
 		</nav>
 		<div class="contacts g-bold">

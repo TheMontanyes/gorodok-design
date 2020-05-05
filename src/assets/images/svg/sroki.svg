@@ -1,0 +1,38 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.92 79.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f7a511;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #f7a511;
+      }
+    </style>
+  </defs>
+  <title>sroki</title>
+  <g>
+    <circle class="cls-1" cx="49.75" cy="46.92" r="22.67"/>
+    <path class="cls-1" d="M477.18,564.08a30.69,30.69,0,1,1,8.57-8.75" transform="translate(-410.25 -491.75)"/>
+    <circle class="cls-2" cx="71.38" cy="68.38" r="1.71"/>
+    <line class="cls-1" x1="49.75" y1="28.33" x2="49.75" y2="32.67"/>
+    <line class="cls-1" x1="49.75" y1="60.33" x2="49.75" y2="64.67"/>
+    <line class="cls-1" x1="67.92" y1="46.5" x2="63.58" y2="46.5"/>
+    <line class="cls-1" x1="35.92" y1="46.5" x2="31.58" y2="46.5"/>
+    <circle class="cls-1" cx="49.75" cy="46.92" r="3.83"/>
+    <line class="cls-1" x1="47.09" y1="44.16" x2="42.67" y2="39.75"/>
+    <line class="cls-1" x1="52.42" y1="44.16" x2="61.41" y2="35.16"/>
+    <line class="cls-1" x1="44.13" y1="16.25" x2="44.13" y2="10.25"/>
+    <line class="cls-1" x1="55.21" y1="16.74" x2="55.21" y2="10.25"/>
+    <rect class="cls-1" x="39" y="1.5" width="21.5" height="8.75" rx="4.37"/>
+    <line class="cls-1" x1="24.88" y1="28.97" x2="11.88" y2="28.97"/>
+    <line class="cls-1" x1="20.41" y1="37.96" x2="1.5" y2="37.96"/>
+    <line class="cls-1" x1="18.38" y1="47.38" x2="9.63" y2="47.38"/>
+    <line class="cls-1" x1="20.41" y1="56.88" x2="7.88" y2="56.88"/>
+    <circle class="cls-2" cx="1.5" cy="56.88" r="1.5"/>
+  </g>
+</svg>

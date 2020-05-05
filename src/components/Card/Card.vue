@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<img class="card__img" src="@/assets/images/svg/adv.svg" alt="advantages">
+		<img class="card__img" src="@/assets/images/svg/kachestvo.svg" alt="advantages">
 		<h3 class="g-sub-title">Качество</h3>
 		<p class="card__text">
 			Наша команда за время своей

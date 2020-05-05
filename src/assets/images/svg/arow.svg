@@ -1,0 +1,15 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7a511;
+      }
+    </style>
+  </defs>
+  <title>arow</title>
+  <g>
+    <rect class="cls-1" y="6.06" width="2.94" height="3.94"/>
+    <rect class="cls-1" x="5.06" y="6.06" width="2.94" height="3.94"/>
+    <polygon class="cls-1" points="35.19 0 29.75 0 35.94 6.06 10 6.06 10 10 35.94 10 29.75 16 34.81 16 43 8.03 35.19 0"/>
+  </g>
+</svg>

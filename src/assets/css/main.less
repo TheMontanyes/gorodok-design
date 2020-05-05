@@ -47,8 +47,12 @@ body {
 }
 
 .g-container {
-	max-width: 1240px;
 	width: 100%;
+	margin: 0 auto;
+}
+
+.g-section {
+	max-width: 1240px;
 	margin: 0 auto;
 }
 
@@ -91,4 +95,27 @@ body {
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 15px;
+}
+
+.animation-rotate {
+	-webkit-animation: animation-rotate infinite 5s linear;
+	        animation: animation-rotate infinite 5s linear;
+}
+
+@-webkit-keyframes animation-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animation-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }

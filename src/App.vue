@@ -1,14 +1,12 @@
 <template>
-  <main id="gorodok-app">
     <router-view />
-		<advantages></advantages>
-  </main>
 </template>
 
 <script>
-
 export default {
-	name: 'app'
+	name: 'app',
+	mounted () {
+	}
 }
 </script>
 
