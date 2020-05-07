@@ -3,7 +3,6 @@
 		<header-slider/>
 		<advantages/>
 		<callback/>
-		<callback/>
 	</main>
 </template>
 

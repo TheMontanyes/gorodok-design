@@ -4,7 +4,7 @@ export default {
 	data () {
 		return {
 			swiperOption: {
-				speed: 600,
+				speed: 500,
 				parallax: true,
 				pagination: {
 					el: '.swiper-pagination',

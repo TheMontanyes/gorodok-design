@@ -1,7 +1,7 @@
 <template>
   <section class="header-slider g-section">
 		<swiper class="swiper" :options="swiperOption">
-			<div class="parallax-bg" slot="parallax-bg" data-swiper-parallax="-23%"></div>
+			<div data-swiper-parallax="-23%"></div>
 			<swiper-slide :key="i" v-for="(item, i) in slides">
 				<div class="header-slider__title" data-swiper-parallax="-600">{{ item.title }}</div>
 				<div class="header-slider__description" data-swiper-parallax="-400">
