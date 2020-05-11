@@ -22,7 +22,7 @@ Vue.component('card', Card) // Карточка (почему мы? / отзыв
 Vue.component('callback', Callback) // Плашка "Нужна консультация?"
 Vue.component('btn', Button) // Универсальный компонент кнопки
 Vue.component('header-slider', HeaderSlider) // Слайдер под шапкой на главной
-Vue.use(VueAwesomeSwiper)
+Vue.use(VueAwesomeSwiper) // Слайдер
 
 // APP ROOT
 new Vue({

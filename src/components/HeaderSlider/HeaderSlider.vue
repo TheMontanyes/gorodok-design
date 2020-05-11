@@ -4,7 +4,7 @@
 			<div data-swiper-parallax="-23%"></div>
 			<swiper-slide :key="i" v-for="(item, i) in slides">
 				<div class="header-slider__title" data-swiper-parallax="-600">{{ item.title }}</div>
-				<div class="header-slider__description" data-swiper-parallax="-400">
+				<div class="header-slider__description" data-swiper-parallax="-300">
 					<p>{{ item.description}}</p>
 				</div>
 				<img class="header-slider__image" :src="require('@/assets/images/' + item.image)" alt="">
