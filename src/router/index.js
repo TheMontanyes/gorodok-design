@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MainPage from '@/components/RouteComponents/MainPage/MainPage.vue'
-import CatalogPage from '@/components/RouteComponents/CatalogPage/CatalogPage.vue'
-import AboutPage from '@/components/RouteComponents/AboutPage/AboutPage.vue'
-import ProjectsPage from '@/components/RouteComponents/ProjectsPage/ProjectsPage.vue'
+import MainPage from '@/views/MainPage/MainPage.vue'
+import CatalogPage from '@/views/CatalogPage/CatalogPage.vue'
+import AboutPage from '@/views/AboutPage/AboutPage.vue'
+import ProjectsPage from '@/views/ProjectsPage/ProjectsPage.vue'
 
 Vue.use(VueRouter)
 

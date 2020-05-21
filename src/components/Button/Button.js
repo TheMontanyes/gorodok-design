@@ -4,6 +4,15 @@ export default {
 		text: {
 			type: String,
 			required: true
+		},
+		className: {
+			type: Array,
+			required: false
+		},
+		btnLink: {
+			type: String,
+			required: false,
+			default: '#'
 		}
 	}
 }

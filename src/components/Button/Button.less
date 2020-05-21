@@ -1,6 +1,23 @@
-.btn-link {
-	color: @color-orange;
+.g-btn {
 	border-radius: 45px;
-	box-shadow: @shadow-orange;
-	padding: 15px;
+	padding: 10px 15px;
+	font-size: 16px;
+	height: 35px;
+	line-height: 100%;
+
+	&-white {
+		color: @color-orange;
+		box-shadow: @shadow-orange;
+	}
+
+	&-orange {
+		color: @color-dark;
+		background-color: @color-orange;
+	}
+
+	&-group {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 2em;
+	}
 }

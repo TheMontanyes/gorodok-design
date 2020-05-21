@@ -1,5 +1,5 @@
 <template>
-	<header class="header g-section">
+	<header class="header">
 		<router-link class="g-link" to="/" exact><img src="@/assets/images/svg/logo.svg" alt="logo" class="logo"></router-link>
 		<nav class="nav">
 			<ul class="nav__list">
