@@ -13,6 +13,10 @@ export default {
 			type: String,
 			required: false,
 			default: '#'
+		},
+		btnImg: {
+			type: String,
+			required: false
 		}
 	}
 }

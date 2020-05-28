@@ -2,10 +2,16 @@
   <section class="last-works g-section">
 		<h2 class="g-main-title">Наши работы</h2>
 		<div class="last-works__list">
-			<div class="last-works__item" :key="i" v-for="(item, i) in works">
-				<img :src="require('@/assets/images/' + item.image)" :title="item.title" :alt="item.title">
+			<div class="last-works__item" :key="i" v-for="(n, i) in 9">
+				<img :src="require('@/assets/images/work-item.png')">
+				<div class="last-works__view-work">
+					<div class="last-works__view-work-content">
+						<btn :text="'Посмотреть работу'" :className="['g-link', 'g-btn', 'g-btn-orange']"/>
+					</div>
+				</div>
 			</div>
 		</div>
+		<btn :text="'Показать больше'" :btnImg="'svg/click.svg'" :className="['g-link', 'g-btn', 'g-btn-white', 'last-works__btn-more']"/>
   </section>
 </template>
 
