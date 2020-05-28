@@ -1,51 +1,51 @@
 @import './settings.less';
 
 @font-face {
-    font-family: 'Muller';
-    src: url('../fonts/MullerRegular.eot');
-    src: local('Muller Regular'), local('MullerRegular'),
-        url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MullerRegular.woff2') format('woff2'),
-        url('../fonts/MullerRegular.woff') format('woff'),
-        url('../fonts/MullerRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.eot');
+	src: local('Muller Regular'), local('MullerRegular'),
+			url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerRegular.woff2') format('woff2'),
+			url('../fonts/MullerRegular.woff') format('woff'),
+			url('../fonts/MullerRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Muller-Light';
-    src: url('../fonts/MullerLight.eot');
-    src: local('Muller Regular'), local('MullerRegular'),
-        url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MullerLight.woff2') format('woff2'),
-        url('../fonts/MullerLight.woff') format('woff'),
-        url('../fonts/MullerLight.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Muller-Light';
+	src: url('../fonts/MullerLight.eot');
+	src: local('Muller Regular'), local('MullerRegular'),
+			url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerLight.woff2') format('woff2'),
+			url('../fonts/MullerLight.woff') format('woff'),
+			url('../fonts/MullerLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Muller-Bold';
-    src: url('../fonts/MullerBold.eot');
-    src: local('Muller Bold'), local('MullerBold'),
-        url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MullerBold.woff2') format('woff2'),
-        url('../fonts/MullerBold.woff') format('woff'),
-        url('../fonts/MullerBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Muller-Bold';
+	src: url('../fonts/MullerBold.eot');
+	src: local('Muller Bold'), local('MullerBold'),
+			url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerBold.woff2') format('woff2'),
+			url('../fonts/MullerBold.woff') format('woff'),
+			url('../fonts/MullerBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Muller-Heavy';
-    src: url('../fonts/MullerHeavy.eot');
-    src: local('Muller Bold'), local('MullerBold'),
-        url('../fonts/MullerHeavy.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MullerHeavy.woff2') format('woff2'),
-        url('../fonts/MullerHeavy.woff') format('woff'),
-        url('../fonts/MullerHeavy.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Muller-Heavy';
+	src: url('../fonts/MullerHeavy.eot');
+	src: local('Muller Bold'), local('MullerBold'),
+			url('../fonts/MullerHeavy.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerHeavy.woff2') format('woff2'),
+			url('../fonts/MullerHeavy.woff') format('woff'),
+			url('../fonts/MullerHeavy.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 *, *::before, *::after {
@@ -64,23 +64,23 @@ body {
 	background-color: #171717;
 }
 
+.g-width__full {
+	width: 100%;
+}
+
 .g-container {
 	width: 100%;
 	margin: 0 auto;
 }
 
 .g-section {
-	max-width: 1240px;
+	width: 1240px;
 	margin: 0 auto;
 }
 
 .g-link {
 	text-decoration: none;
 	color: inherit;
-}
-
-.g-width__full {
-	width: 100%;
 }
 
 .g-bold {
@@ -94,12 +94,13 @@ body {
 	font-weight: 900;
 	font-family: 'Muller-Heavy';
 	position: relative;
+	line-height: 40px;
 
 	&::before {
 		content: '';
 		width: 25px;
 		height: 25px;
-		bottom: -15px;
+		bottom: 0px;
 		left: -10px;
 		position: absolute;
 		z-index: -1;

@@ -1,6 +1,7 @@
 <template>
 	<main class="g-container">
 		<header-slider/>
+		<last-works/>
 		<advantages/>
 		<callback/>
 	</main>

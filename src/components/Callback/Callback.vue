@@ -6,7 +6,7 @@
     <p class="callback__description">
       Мы с радостью ответим на Ваши вопросы и произведём расчет стоимости услуг, а также подготовим индивидуальное коммерческое предложение.
     </p>
-		<btn :text="'Заказать звонок'" :className="['g-btn-link', 'g-link']" />
+		<btn :text="'Заказать звонок'" :className="['g-btn', 'g-btn-white', 'g-link']" />
   </section>
 </template>
 

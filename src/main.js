@@ -14,6 +14,7 @@ import Card from '@/components/Card/Card.vue'
 import Callback from '@/components/Callback/Callback.vue'
 import Button from '@/components/Button/Button.vue'
 import HeaderSlider from '@/components/HeaderSlider/HeaderSlider.vue'
+import LastWorks from '@/components/LastWorks/LastWorks.vue'
 
 Vue.config.productionTip = false
 
@@ -22,6 +23,7 @@ Vue.component('card', Card) // Карточка (почему мы? / отзыв
 Vue.component('callback', Callback) // Плашка "Нужна консультация?"
 Vue.component('btn', Button) // Универсальный компонент кнопки
 Vue.component('header-slider', HeaderSlider) // Слайдер под шапкой на главной
+Vue.component('last-works', LastWorks) // Слайдер под шапкой на главной
 Vue.use(VueAwesomeSwiper) // Слайдер
 
 // APP ROOT
