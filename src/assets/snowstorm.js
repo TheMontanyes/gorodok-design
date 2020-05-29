@@ -50,7 +50,6 @@ var snowStorm = (function(window, document) {
         }
       </style>
     </defs>
-    <title>krestik</title>
     <polygon class="cls-1" points="10.84 0 5.17 0 5.17 5.17 0 5.17 0 10.83 5.17 10.83 5.17 16 10.84 16 10.84 10.83 16 10.83 16 5.17 10.84 5.17 10.84 0"/>
   </svg>`;  // &bull; = bullet, &middot; is square on some systems etc.
   this.snowStick = false;          // Whether or not snow should "stick" at the bottom. When off, will never collect.

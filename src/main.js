@@ -15,6 +15,7 @@ import Callback from '@/components/Callback/Callback.vue'
 import Button from '@/components/Button/Button.vue'
 import HeaderSlider from '@/components/HeaderSlider/HeaderSlider.vue'
 import LastWorks from '@/components/LastWorks/LastWorks.vue'
+import Clients from '@/components/Clients/Clients.vue'
 
 Vue.config.productionTip = false
 
@@ -24,6 +25,7 @@ Vue.component('callback', Callback) // Плашка "Нужна консульт
 Vue.component('btn', Button) // Универсальный компонент кнопки
 Vue.component('header-slider', HeaderSlider) // Слайдер под шапкой на главной
 Vue.component('last-works', LastWorks) // Слайдер под шапкой на главной
+Vue.component('clients', Clients) // Слайдер под шапкой на главной
 Vue.use(VueAwesomeSwiper) // Слайдер
 
 // APP ROOT

@@ -1,6 +1,6 @@
 <template>
 	<section class="advantages g-section">
-		<h2 class="g-main-title">Преимущества</h2>
+		<h2 class="g-main-title">Почему мы?</h2>
 		<ul class="advantages-list">
 			<li class="advantages-item">
 				<img

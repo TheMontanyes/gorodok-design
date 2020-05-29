@@ -4,6 +4,7 @@
 		<last-works/>
 		<advantages/>
 		<callback/>
+		<clients/>
 	</main>
 </template>
 
