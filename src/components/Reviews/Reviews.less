@@ -1,0 +1,28 @@
+.reviews {
+	.swiper {
+		margin-top: 20px;
+		padding: 20px 0;
+	}
+
+	.button-next, .button-prev {
+		position: absolute;
+		background-image: url(../../assets/images/svg/arow.svg);
+		background-repeat: no-repeat;
+		width: 43px;
+		bottom: 0;
+		height: 16px;
+		z-index: 99999;
+		left: 60px;
+
+		&.swiper-button-disabled {
+			opacity: 0.35;
+		}
+	}
+
+	.button {
+		&-prev {
+			left: 0px;
+			transform: rotate(180deg);
+		}
+	}
+}

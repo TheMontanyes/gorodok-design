@@ -9,6 +9,10 @@ export default {
 	data () {
 		return {
 			swiperOption: {
+				autoplay: {
+					delay: 3000,
+					disableOnInteraction: false
+				},
 				slidesPerView: 6,
 				spaceBetween: 50,
 				freeMode: true,
