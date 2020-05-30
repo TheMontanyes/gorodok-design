@@ -20,9 +20,6 @@ export default {
 					modifier: 1,
 					slideShadows: false
 				},
-				pagination: {
-					el: '.swiper-pagination'
-				},
 				navigation: {
 					nextEl: '.button-next',
 					prevEl: '.button-prev'

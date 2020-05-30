@@ -15,11 +15,7 @@ export default {
 				},
 				slidesPerView: 6,
 				spaceBetween: 50,
-				freeMode: true,
-				pagination: {
-					el: '.swiper-pagination',
-					clickable: true
-				}
+				freeMode: true
 			}
 		}
 	}
