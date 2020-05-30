@@ -1,5 +1,5 @@
 <template>
-	<div>Projects page</div>
+	<main class="g-container">Projects page</main>
 </template>
 
 <script>

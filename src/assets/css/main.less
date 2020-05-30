@@ -1,5 +1,53 @@
 @import './settings.less';
 
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.eot');
+	src: local('Muller Regular'), local('MullerRegular'),
+			url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerRegular.woff2') format('woff2'),
+			url('../fonts/MullerRegular.woff') format('woff'),
+			url('../fonts/MullerRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller-Light';
+	src: url('../fonts/MullerLight.eot');
+	src: local('Muller Regular'), local('MullerRegular'),
+			url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerLight.woff2') format('woff2'),
+			url('../fonts/MullerLight.woff') format('woff'),
+			url('../fonts/MullerLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller-Bold';
+	src: url('../fonts/MullerBold.eot');
+	src: local('Muller Bold'), local('MullerBold'),
+			url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerBold.woff2') format('woff2'),
+			url('../fonts/MullerBold.woff') format('woff'),
+			url('../fonts/MullerBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller-Heavy';
+	src: url('../fonts/MullerHeavy.eot');
+	src: local('Muller Bold'), local('MullerBold'),
+			url('../fonts/MullerHeavy.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/MullerHeavy.woff2') format('woff2'),
+			url('../fonts/MullerHeavy.woff') format('woff'),
+			url('../fonts/MullerHeavy.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
@@ -12,9 +60,10 @@ body {
 	font-style: normal;
 	font-size: 16px;
 	line-height: 16px;
-	padding-bottom: 120px;
-
 	background-color: #171717;
+	display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .g-width__full {
@@ -24,6 +73,7 @@ body {
 .g-container {
 	width: 100%;
 	margin: 0 auto;
+	flex-grow: 1;
 }
 
 .g-section {
@@ -40,6 +90,10 @@ body {
 	font-family: 'Muller-Bold';	
 }
 
+.g-color-orange {
+	color: @color-orange;
+}
+
 .g-main-title {
 	color: #fff;
 	text-transform: uppercase;
@@ -51,12 +105,35 @@ body {
 	margin-left: 10px;
 	margin-bottom: 25px;
 
-	&::before {
+	&::after {
 		content: '';
 		width: 25px;
 		height: 25px;
 		bottom: 0px;
 		left: -10px;
+		position: absolute;
+		z-index: -1;
+		background-color: @color-orange;
+		box-shadow: @shadow-orange;
+	}
+}
+
+.g-slide-title {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: 'Muller-Heavy';
+	font-weight: 900;
+	position: relative;
+
+	&::before {
+		content: '';
+		width: 100%;
+		height: 25px;
+		bottom: 0px;
+		left: 10px;
 		position: absolute;
 		z-index: -1;
 		background-color: @color-orange;
@@ -71,13 +148,21 @@ body {
 	margin-bottom: 15px;
 }
 
-.animation-rotate {
-	-webkit-animation: animation-rotate infinite 5s linear;
-	        animation: animation-rotate infinite 5s linear;
+.page-enter-active {
+  transition: opacity 0.15s ease-out;
 }
 
-.g-color-orange {
-	color: @color-orange;
+.page-leave-active {
+  transition: opacity 0.15s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.animation-rotate {
+	animation: animation-rotate infinite 5s linear;	
 }
 
 @-webkit-keyframes animation-rotate {

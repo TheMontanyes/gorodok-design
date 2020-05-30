@@ -1,5 +1,5 @@
 <template>
-	<div>Catalog</div>
+	<main class="g-container">Catalog</main>
 </template>
 
 <script>

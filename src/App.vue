@@ -1,14 +1,8 @@
 <template>
-    <router-view />
+	<transition name="page">
+		<router-view />
+	</transition>
 </template>
-
-<script>
-export default {
-	name: 'app',
-	mounted () {
-	}
-}
-</script>
 
 <style lang="less">
 	@import './assets/css/main.less';

@@ -6,6 +6,7 @@
 				<img :src="require('@/assets/images/work-item.png')">
 				<div class="last-works__view-work">
 					<div class="last-works__view-work-content">
+						<div class="g-slide-title">Крутой проект</div>
 						<btn :text="'Посмотреть работу'" :className="['g-link', 'g-btn', 'g-btn-orange']"/>
 					</div>
 				</div>

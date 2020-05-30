@@ -1,5 +1,5 @@
 <template>
-	<main class="g-container">
+	<main class="g-container main">
 		<header-slider/>
 		<last-works/>
 		<advantages/>

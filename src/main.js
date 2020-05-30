@@ -10,6 +10,7 @@ import 'swiper/css/swiper.css'
 // Подключение компонентов для регистрации
 import App from '@/App.vue'
 import Header from '@/components/Header/Header.vue'
+import Footer from '@/components/Footer/Footer.vue'
 import Card from '@/components/Card/Card.vue'
 import Callback from '@/components/Callback/Callback.vue'
 import Button from '@/components/Button/Button.vue'
@@ -41,3 +42,10 @@ new Vue({
 	store,
 	render: h => h(Header)
 }).$mount('#g-header')
+
+// FOOTER
+new Vue({
+	router,
+	store,
+	render: h => h(Footer)
+}).$mount('#g-footer')
